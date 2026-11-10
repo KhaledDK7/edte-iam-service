@@ -1,0 +1,51 @@
+[
+  {
+    "urn": "urn:actor:intern_khaled",
+    "name": "Khaled",
+    "department": "Finance",
+    "roles": [
+      "urn:role:intern"
+    ]
+  },
+  {
+    "urn": "urn:actor:usr_1001",
+    "name": "Alice",
+    "department": "Finance",
+    "roles": [
+      "urn:role:accountant"
+    ]
+  },
+  {
+    "urn": "urn:actor:usr_1002",
+    "name": "Omar",
+    "department": "Finance",
+    "roles": [
+      "urn:role:department_head"
+    ]
+  },
+  {
+    "urn": "urn:actor:usr_1003",
+    "name": "Jake",
+    "department": "Management",
+    "roles": [
+      "urn:role:executive"
+    ]
+  },
+  {
+    "urn": "urn:actor:usr_1024",
+    "name": "Jeff",
+    "department": "Payments",
+    "roles": [
+      "urn:role:payment_creator",
+      "urn:role:payment_approver"
+    ]
+  },
+  {
+    "urn": "urn:actor:usr_2001",
+    "name": "Lucy",
+    "department": "Audit",
+    "roles": [
+      "urn:role:auditor_a"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "role": "urn:role:finance_operator",
+    "resource": "urn:resource:billing_db:table:invoices",
+    "action": "WRITE"
+  },
+  {
+    "role": "urn:role:accountant",
+    "resource": "urn:resource:finance_db:table:ledger",
+    "action": "READ"
+  },
+  {
+    "role": "urn:role:finance_manager",
+    "resource": "urn:resource:billing_db:table:invoices",
+    "action": "READ"
+  },
+  {
+    "role": "urn:role:department_head",
+    "resource": "urn:resource:finance_db:table:reports",
+    "action": "READ"
+  },
+  {
+    "role": "urn:role:executive",
+    "resource": "urn:resource:audit_db:table:audit_log",
+    "action": "READ"
+  },
+  {
+    "role": "urn:role:payment_creator",
+    "resource": "urn:resource:billing_db:table:payments",
+    "action": "WRITE"
+  },
+  {
+    "role": "urn:role:payment_approver",
+    "resource": "urn:resource:billing_db:procedure:approve_payment",
+    "action": "EXECUTE"
+  },
+  {
+    "role": "urn:role:auditor_b",
+    "resource": "urn:resource:audit_db:table:audit_log",
+    "action": "READ"
+  }
+]

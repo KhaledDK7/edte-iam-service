@@ -1,0 +1,66 @@
+[
+  {
+    "urn": "urn:role:intern",
+    "name": "Intern",
+    "inherits_from": [
+      "urn:role:finance_operator"
+    ]
+  },
+  {
+    "urn": "urn:role:finance_operator",
+    "name": "Finance Operator",
+    "inherits_from": [
+      "urn:role:accountant"
+    ]
+  },
+  {
+    "urn": "urn:role:accountant",
+    "name": "Accountant",
+    "inherits_from": [
+      "urn:role:finance_manager"
+    ]
+  },
+  {
+    "urn": "urn:role:finance_manager",
+    "name": "Finance Manager",
+    "inherits_from": [
+      "urn:role:department_head"
+    ]
+  },
+  {
+    "urn": "urn:role:department_head",
+    "name": "Department Head",
+    "inherits_from": [
+      "urn:role:executive"
+    ]
+  },
+  {
+    "urn": "urn:role:executive",
+    "name": "Executive",
+    "inherits_from": []
+  },
+  {
+    "urn": "urn:role:payment_creator",
+    "name": "Payment Creator",
+    "inherits_from": []
+  },
+  {
+    "urn": "urn:role:payment_approver",
+    "name": "Payment Approver",
+    "inherits_from": []
+  },
+  {
+    "urn": "urn:role:auditor_a",
+    "name": "Auditor A",
+    "inherits_from": [
+      "urn:role:auditor_b"
+    ]
+  },
+  {
+    "urn": "urn:role:auditor_b",
+    "name": "Auditor B",
+    "inherits_from": [
+      "urn:role:auditor_a"
+    ]
+  }
+]
